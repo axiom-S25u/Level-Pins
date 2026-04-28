@@ -1,0 +1,30 @@
+{
+	"geode": "5.6.1",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "axiom.level-pin",
+	"name": "Level Pin",
+	"version": "v1.0.0",
+	"developer": "Axiom",
+	"description": "pin your favorite levels to the main menu for quick access",
+	"links": {
+        "community": "https://discord.gg/TWn99qzmUA"
+    },
+	"settings": {
+		"limit": {
+			"name": "Pin Limit",
+			"description": "how many levels u can pin",
+			"type": "int",
+			"default": 3,
+			"min": 1,
+			"max": 10
+		}
+	},
+	"dependencies": {
+		"geode.node-ids": ">=v1.23.3"
+	}
+}
